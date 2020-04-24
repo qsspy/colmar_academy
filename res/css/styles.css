@@ -1,3 +1,68 @@
-p {
-    color: red;
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(216,216,216);
+}
+
+header {
+    height: 4rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    margin-left: 1.5rem;
+}
+
+.logo p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: rgb(85, 85, 85);
+}
+
+.logo p span {
+    font-weight: 400;
+    color: rgb(187, 187, 187);
+}
+
+.logo img {
+    height: 120%;
+}
+
+header nav ul {
+    display: flex;
+    margin-right: 1.5rem;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    color: rgb(85, 85, 85);
+}
+
+header nav ul li {
+    margin-left: 1rem;
+    flex-shrink: 0;
+}
+
+.free-space {
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 100%;
+    margin: 0 1.5rem;
+}
+
+.main {
+    position: relative;
+    top: 4rem;
 }
