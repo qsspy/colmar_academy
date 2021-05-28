@@ -1,3 +1,3 @@
-It's probably my first bigger website.
+It's probably my first website layout using pure html + css.
 Check it LIVE on :
 https://qsspy.github.io/colmar_academy/
